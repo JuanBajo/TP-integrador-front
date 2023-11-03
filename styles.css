@@ -64,6 +64,14 @@
     filter: brightness(0.5);
 }
 
+.shadow-border {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#divTotal {
+    display: none;
+}
+
 @media (min-width :768px) {
     .card-resp {
         flex: 0 0 25%;
